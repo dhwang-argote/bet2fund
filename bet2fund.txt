@@ -1,0 +1,510 @@
+{
+  "knowledge_base": {
+    "source": "Prop Betting and Parlay Strategies Report (Blended with BET2FUND Rules)",
+    "version": "1.2",
+    "date_created": "2025-09-23",
+    "total_chunks": 32,
+    "voice_optimized": true,
+    "retrieval_guidelines": {
+      "top_k": 3,
+      "similarity_threshold": 0.75,
+      "filters": ["category", "bet_type", "sport", "risk_level", "platform"],
+      "context_limit": "400 tokens"
+    },
+    "chunks": [
+      {
+        "chunk_id": "1",
+        "category": "Introduction",
+        "bet_type": "general",
+        "sport": "general",
+        "content": "Sports betting predicts results and wagers money on outcomes, like betting $10 on the Chicago Bulls to beat the Lakers. Prop betting focuses on specific events or player performances, not the final score. Parlay betting combines multiple bets into one high-risk, high-reward wager. Crucial for understanding modern betting's appeal and risks, especially for young audiences.",
+        "metadata": {
+          "type": "definition",
+          "voice_priority": "high",
+          "related_chunks": ["2", "19", "24"],
+          "tags": ["sports betting basics", "prop parlay intro", "youth education"],
+          "sources": ["1", "2", "10", "11"],
+          "risk_level": "medium"
+        },
+        "keywords": ["sports betting", "prop betting", "parlay", "wager outcome"]
+      },
+      {
+        "chunk_id": "2",
+        "category": "Prop Betting",
+        "bet_type": "general",
+        "sport": "general",
+        "content": "Prop (proposition) bets wager on specific events within a game, like player points or first score type, not who wins. Uses over/under or yes/no format. Example: Line at 270.5 passing yards at -110 odds—bet over for 271+, under for 270-. Odds: -150 likely, +200 less probable.",
+        "metadata": {
+          "type": "mechanics",
+          "voice_priority": "medium",
+          "related_chunks": ["1", "3"],
+          "tags": ["prop definition", "over under", "odds format"],
+          "sources": ["1", "3", "8", "9"]
+        },
+        "keywords": ["proposition bet", "specific event", "over under line"]
+      },
+      {
+        "chunk_id": "3",
+        "category": "Prop Types",
+        "bet_type": "player_props",
+        "sport": "multi",
+        "content": "Player props bet on individual performance. NFL example (Cowboys vs. Packers): Dak Prescott over 2.5 touchdowns (win if 3+); Aaron Jones under 85.5 rushing yards (win if 85-). NBA: Player points over/under 22.5, rebounds, assists. MLB: Pitcher strikeouts, batter home runs.",
+        "metadata": {
+          "type": "examples",
+          "voice_priority": "high",
+          "related_chunks": ["1", "4"],
+          "tags": ["player props", "NFL examples", "NBA MLB"],
+          "sources": ["2", "3", "4", "5"]
+        },
+        "keywords": ["player props", "touchdowns over", "rushing yards under", "points scored"]
+      },
+      {
+        "chunk_id": "4",
+        "category": "Prop Types",
+        "bet_type": "team_props",
+        "sport": "multi",
+        "content": "Team props bet on specific team achievements. Examples: Total team touchdowns/field goals in NFL; which team first to 20 points in basketball; team point totals over/under 112.5.",
+        "metadata": {
+          "type": "examples",
+          "voice_priority": "medium",
+          "related_chunks": ["3", "5"],
+          "tags": ["team props", "team achievements"],
+          "sources": ["6", "2"]
+        },
+        "keywords": ["team props", "team touchdowns", "first to 20 points"]
+      },
+      {
+        "chunk_id": "5",
+        "category": "Prop Types",
+        "bet_type": "game_props",
+        "sport": "general",
+        "content": "Game props bet on in-game events. Examples: First score touchdown (not field goal); total points over 48.5; will there be a safety? Yes/no; game to overtime?; first touchdown team; total penalties.",
+        "metadata": {
+          "type": "examples",
+          "voice_priority": "medium",
+          "related_chunks": ["4", "6"],
+          "tags": ["game props", "first score", "safety yes no"],
+          "sources": ["2"]
+        },
+        "keywords": ["game props", "first touchdown", "total points over", "penalties"]
+      },
+      {
+        "chunk_id": "6",
+        "category": "Prop Types",
+        "bet_type": "futures_props",
+        "sport": "general",
+        "content": "Futures props are long-term season bets. Examples: Team win totals over/under 8.5; team makes playoffs?; pre-season championship winner.",
+        "metadata": {
+          "type": "examples",
+          "voice_priority": "low",
+          "related_chunks": ["5"],
+          "tags": ["futures props", "season outcomes"],
+          "sources": ["7", "2"]
+        },
+        "keywords": ["futures props", "win totals", "playoffs yes no"]
+      },
+      {
+        "chunk_id": "7",
+        "category": "Parlay Basics",
+        "bet_type": "parlay",
+        "sport": "general",
+        "content": "Parlay (accumulator/combo) links 2+ bets; all must win or lose entire wager. Odds multiply for high payouts. Example: Chiefs -110 + Packers +150 = ~+377 odds; $10 bet wins $37.70 profit.",
+        "metadata": {
+          "type": "definition",
+          "voice_priority": "high",
+          "related_chunks": ["1", "8"],
+          "tags": ["parlay definition", "all or nothing", "odds multiply"],
+          "sources": ["10"]
+        },
+        "keywords": ["parlay bet", "combo bet", "all must win"]
+      },
+      {
+        "chunk_id": "8",
+        "category": "Parlay Types",
+        "bet_type": "multi_leg",
+        "sport": "general",
+        "content": "Multi-leg parlays add bets for bigger payouts/higher risk. Three-leg: 49ers -160, Jaguars +7 -110, over/under -110 = ~+492 odds. More legs = exponentially harder to win.",
+        "metadata": {
+          "type": "examples",
+          "voice_priority": "medium",
+          "related_chunks": ["7", "9"],
+          "tags": ["multi leg parlay", "three team odds"],
+          "sources": ["12", "10"]
+        },
+        "keywords": ["multi leg", "three leg parlay", "risk exponential"]
+      },
+      {
+        "chunk_id": "9",
+        "category": "Parlay Types",
+        "bet_type": "same_game_parlay",
+        "sport": "general",
+        "content": "Same-game parlay (SGP) combines bets from one game; odds adjusted for correlations. Prop parlay example (NBA): $10 on Curry over 4.5 threes + Jokić over 10.5 assists + Edwards over 30.5 points. High payout potential, but very hard—depends on multiple player performances.",
+        "metadata": {
+          "type": "examples",
+          "voice_priority": "high",
+          "related_chunks": ["8", "10", "20"],
+          "tags": ["SGP", "prop parlay", "player combo", "high risk"],
+          "sources": ["13", "14", "15", "12"]
+        },
+        "keywords": ["same game parlay", "prop bet parlay", "three pointers over", "assists over"]
+      },
+      {
+        "chunk_id": "10",
+        "category": "Parlay Types",
+        "bet_type": "round_robin",
+        "sport": "general",
+        "content": "Round robin creates sub-parlays from selections. Three teams = three 2-team parlays; more win chances than one big parlay.",
+        "metadata": {
+          "type": "examples",
+          "voice_priority": "medium",
+          "related_chunks": ["9", "11"],
+          "tags": ["round robin", "sub parlays"],
+          "sources": ["16", "12"]
+        },
+        "keywords": ["round robin parlay", "multiple combos"]
+      },
+      {
+        "chunk_id": "11",
+        "category": "Parlay Types",
+        "bet_type": "teaser",
+        "sport": "football",
+        "content": "Teaser adjusts spreads for easier wins/lower payouts. 6-point football teaser: Move -7 to -1.",
+        "metadata": {
+          "type": "examples",
+          "voice_priority": "low",
+          "related_chunks": ["10"],
+          "tags": ["teaser parlay", "spread adjustment"],
+          "sources": ["17", "12"]
+        },
+        "keywords": ["teaser bet", "6 point teaser"]
+      },
+      {
+        "chunk_id": "12",
+        "category": "Parlay Payouts",
+        "bet_type": "parlay",
+        "sport": "general",
+        "content": "Parlay odds multiply selections. Approx: 2-team +260-+280; 3-team +600-+650; 4-team +1200-+1300. Example: $10 on 1.5x1x2 odds = $30 profit ($40 total). Varies by book.",
+        "metadata": {
+          "type": "reference",
+          "voice_priority": "high",
+          "related_chunks": ["7", "8"],
+          "tags": ["payout calculation", "odds multiply"],
+          "sources": ["18", "10"]
+        },
+        "keywords": ["parlay payout", "3 leg +600", "multiplication example"]
+      },
+      {
+        "chunk_id": "13",
+        "category": "Bankroll Management",
+        "bet_type": "strategy",
+        "sport": "general",
+        "content": "Bankroll: Money you can fully afford to lose, separate from essentials. Unit: 1-3% per bet ($1K bankroll = $10-30 bets). Track all for discipline.",
+        "metadata": {
+          "type": "fundamentals",
+          "voice_priority": "high",
+          "related_chunks": ["14", "25"],
+          "tags": ["bankroll", "unit size"],
+          "sources": ["19", "20", "21", "22"]
+        },
+        "keywords": ["bankroll management", "afford to lose", "bet tracking"]
+      },
+      {
+        "chunk_id": "14",
+        "category": "Parlay Strategies",
+        "bet_type": "parlay_strategy",
+        "sport": "general",
+        "content": "Limit to 2-3 legs maximum (platform rule: no >3-leg parlays). Use correlations (e.g., underdog + under total). Shop lines across books. Hedge final legs if profitable.",
+        "metadata": {
+          "type": "best_practices",
+          "voice_priority": "high",
+          "related_chunks": ["13", "15", "26"],
+          "tags": ["small parlays", "correlations", "line shop", "3 leg max"],
+          "sources": ["23", "24", "25", "26"]
+        },
+        "keywords": ["parlay tips", "2-3 legs max", "hedge strategy", "no 4+ legs"]
+      },
+      {
+        "chunk_id": "15",
+        "category": "Prop Strategies",
+        "bet_type": "prop_strategy",
+        "sport": "general",
+        "content": "Bet your strengths (e.g., NBA matchups). Shop prop lines (5.5 vs. 6.5 receptions). Avoid high-juice exotics; stick to -110 markets.",
+        "metadata": {
+          "type": "best_practices",
+          "voice_priority": "medium",
+          "related_chunks": ["14"],
+          "tags": ["prop tips", "line shopping"],
+          "sources": ["26", "5", "27", "15", "24"]
+        },
+        "keywords": ["prop best practices", "knowledge focus", "avoid exotics"]
+      },
+      {
+        "chunk_id": "16",
+        "category": "Legal Responsible",
+        "bet_type": "legal",
+        "sport": "general",
+        "content": "2025: 40 states + DC legal. State-specific rules. Set loss limits; no chasing. Use breaks.",
+        "metadata": {
+          "type": "regulations",
+          "voice_priority": "high",
+          "related_chunks": ["17"],
+          "tags": ["legal status", "loss limits"],
+          "sources": ["29", "30", "32", "34", "19"]
+        },
+        "keywords": ["legal betting", "40 states", "no chasing losses"]
+      },
+      {
+        "chunk_id": "17",
+        "category": "Responsible Betting",
+        "bet_type": "responsible",
+        "sport": "general",
+        "content": "Bet as entertainment, not income—most lose long-term. Use tools for limits. In platforms like BET2FUND, follow drawdowns (20% overall, 15% daily) to avoid breaches. Seek help if problematic.",
+        "metadata": {
+          "type": "guidance",
+          "voice_priority": "high",
+          "related_chunks": ["16", "24", "25"],
+          "tags": ["responsible gambling", "entertainment only", "drawdown limits"],
+          "sources": ["19", "21", "32", "bet2fund_rules"]
+        },
+        "keywords": ["responsible betting", "seek help", "not investment", "daily drawdown"]
+      },
+      {
+        "chunk_id": "18",
+        "category": "Terminology",
+        "bet_type": "glossary",
+        "sport": "general",
+        "content": "Terms: Bankroll (bet money); Unit (1-5% bankroll); Juice (-110 vig); Sharp (pro); Public (rec); Push (refund); Covering (spread win).",
+        "metadata": {
+          "type": "reference",
+          "voice_priority": "medium",
+          "related_chunks": ["13"],
+          "tags": ["betting glossary", "vig juice"],
+          "sources": ["7", "9", "35", "37"]
+        },
+        "keywords": ["betting terms", "sharp public", "push tie"]
+      },
+      {
+        "chunk_id": "19",
+        "category": "Executive Summary",
+        "bet_type": "general",
+        "sport": "general",
+        "content": "Report covers prop (specific events/players) and parlay (combined bets) in sports betting. Shifts from game winner to details; high-reward but risky. Key for youth: Recognize appeal vs. dangers like all-or-nothing losses.",
+        "metadata": {
+          "type": "overview",
+          "voice_priority": "high",
+          "related_chunks": ["1", "24"],
+          "tags": ["executive summary", "youth risks"],
+          "sources": ["new_doc_1.0"]
+        },
+        "keywords": ["betting concepts", "prop parlay summary", "youth awareness"]
+      },
+      {
+        "chunk_id": "20",
+        "category": "Prop Parlay Combo",
+        "bet_type": "prop_parlay",
+        "sport": "NBA",
+        "content": "Prop parlay merges props into parlay. Example: $10 on Curry over 4.5 threes + Jokić over 10.5 assists + Edwards over 30.5 points. Huge payout potential, but very difficult—social media hypes wins, but odds against multiple hits.",
+        "metadata": {
+          "type": "examples",
+          "voice_priority": "high",
+          "related_chunks": ["9", "21"],
+          "tags": ["prop parlay", "NBA example", "high risk reward"],
+          "sources": ["new_doc_5.0"]
+        },
+        "keywords": ["prop bet parlay", "Curry threes", "Jokic assists", "Edwards points"]
+      },
+      {
+        "chunk_id": "21",
+        "category": "Parlay Example",
+        "bet_type": "parlay",
+        "sport": "multi",
+        "content": "Parlay vs. individual: $10 each on Celtics win (1.5 odds), LeBron over 28.5 pts (1.0), Warriors -5 (2.0). Individual: Win partial if some hit. Parlay: Multiply to 3.0 odds ($30 profit on $10), but all-or-nothing—if one misses, lose all.",
+        "metadata": {
+          "type": "examples",
+          "voice_priority": "medium",
+          "related_chunks": ["7", "20"],
+          "tags": ["parlay vs single", "odds multiplication", "all or nothing"],
+          "sources": ["new_doc_4.1"]
+        },
+        "keywords": ["parlay example", "Celtics moneyline", "LeBron points", "Warriors spread"]
+      },
+      {
+        "chunk_id": "22",
+        "category": "Prop Examples Detailed",
+        "bet_type": "player_game_props",
+        "sport": "NFL",
+        "content": "NFL props (Cowboys-Packers): Player—Prescott over 2.5 TDs (win 3+); Jones under 85.5 yards (win 85-). Game—First score TD; over 48.5 total points; safety yes/no.",
+        "metadata": {
+          "type": "examples",
+          "voice_priority": "high",
+          "related_chunks": ["3", "5"],
+          "tags": ["NFL props", "detailed examples"],
+          "sources": ["new_doc_3.1"]
+        },
+        "keywords": ["NFL prop bets", "Prescott TDs", "Jones yards", "first score TD"]
+      },
+      {
+        "chunk_id": "23",
+        "category": "Appeal Risks",
+        "bet_type": "general",
+        "sport": "general",
+        "content": "Appeal: Makes games engaging with action on events/players; small bet big payout. Risks: Parlays 1-in-8 (3-leg) to 1-in-32 (5-leg) odds; no partial wins; illusion of player insight leads to over-betting.",
+        "metadata": {
+          "type": "analysis",
+          "voice_priority": "high",
+          "related_chunks": ["14", "17"],
+          "tags": ["betting appeal", "parlay risks", "youth caution"],
+          "sources": ["new_doc_6.0"]
+        },
+        "keywords": ["betting appeal", "high risk parlay", "illusion control", "partial no win"]
+      },
+      {
+        "chunk_id": "24",
+        "category": "Conclusion",
+        "bet_type": "responsible",
+        "sport": "general",
+        "content": "Prop/parlays exciting for entertainment, but high financial loss risk. Approach with caution—especially youth. Focus on fun, not profit; use limits.",
+        "metadata": {
+          "type": "guidance",
+          "voice_priority": "high",
+          "related_chunks": ["17", "19"],
+          "tags": ["conclusion", "extreme caution", "entertainment focus"],
+          "sources": ["new_doc_6.0"]
+        },
+        "keywords": ["betting conclusion", "youth risks", "caution approach"]
+      },
+      {
+        "chunk_id": "25",
+        "category": "Platform Rules",
+        "bet_type": "challenge",
+        "sport": "general",
+        "content": "BET2FUND Challenge: Achieve 33% profit target in evaluation period. Minimum 5 picking days required. Focus on consistent performance to qualify for funded accounts.",
+        "metadata": {
+          "type": "rules",
+          "platform": "bet2fund",
+          "voice_priority": "high",
+          "related_chunks": ["13", "26"],
+          "tags": ["profit target", "picking days", "challenge rules"],
+          "sources": ["bet2fund_rules"],
+          "risk_level": "low"
+        },
+        "keywords": ["BET2FUND challenge", "33% profit", "5 days minimum"]
+      },
+      {
+        "chunk_id": "26",
+        "category": "Platform Rules",
+        "bet_type": "risk_management",
+        "sport": "general",
+        "content": "Risk rules: Overall drawdown 20% (equity not >20% below peak). Daily drawdown 15% (no >15% loss in one day). No overnight holds on major news events. Follow all protocols to avoid disqualification.",
+        "metadata": {
+          "type": "rules",
+          "platform": "bet2fund",
+          "voice_priority": "high",
+          "related_chunks": ["17", "14"],
+          "tags": ["drawdown limits", "no overnight news", "risk protocols"],
+          "sources": ["bet2fund_rules"],
+          "risk_level": "high"
+        },
+        "keywords": ["drawdown 20%", "daily 15% loss", "news events no hold"]
+      },
+      {
+        "chunk_id": "27",
+        "category": "Platform Rules",
+        "bet_type": "payouts",
+        "sport": "general",
+        "content": "Profit split: Keep up to 80% based on plan/performance. Bi-weekly payouts via crypto to wallet. Minimum $100 threshold. Processed reliably for qualified traders.",
+        "metadata": {
+          "type": "rules",
+          "platform": "bet2fund",
+          "voice_priority": "medium",
+          "related_chunks": ["25"],
+          "tags": ["profit split 80%", "bi weekly payout", "crypto wallet"],
+          "sources": ["bet2fund_rules"]
+        },
+        "keywords": ["profit distribution", "80% keep", "$100 minimum"]
+      },
+      {
+        "chunk_id": "28",
+        "category": "Platform Rules",
+        "bet_type": "markets",
+        "sport": "multi",
+        "content": "Permitted: Major leagues (NFL, NBA, MLB, NHL, Soccer). Pre-game/live betting. Bet types: Moneyline, spread, totals, major props.",
+        "metadata": {
+          "type": "rules",
+          "platform": "bet2fund",
+          "voice_priority": "medium",
+          "related_chunks": ["3", "4"],
+          "tags": ["allowed markets", "major leagues", "moneyline spread"],
+          "sources": ["bet2fund_rules"]
+        },
+        "keywords": ["permitted markets", "NFL NBA MLB", "prop totals"]
+      },
+      {
+        "chunk_id": "29",
+        "category": "Platform Rules",
+        "bet_type": "restrictions",
+        "sport": "general",
+        "content": "Restrictions: No parlays >3 legs. No exotic/highly volatile markets. Stick to standard bets for compliance.",
+        "metadata": {
+          "type": "rules",
+          "platform": "bet2fund",
+          "voice_priority": "high",
+          "related_chunks": ["14", "15"],
+          "tags": ["3 leg max", "no exotics", "volatility restriction"],
+          "sources": ["bet2fund_rules"],
+          "risk_level": "medium"
+        },
+        "keywords": ["market restrictions", "no 4+ parlay", "no volatile"]
+      },
+      {
+        "chunk_id": "30",
+        "category": "Platform Rules",
+        "bet_type": "scaling",
+        "sport": "general",
+        "content": "Scaling: After 3 profitable months, account increase 25-100% based on performance. Profit split +5% after 6 consistent months.",
+        "metadata": {
+          "type": "rules",
+          "platform": "bet2fund",
+          "voice_priority": "medium",
+          "related_chunks": ["27"],
+          "tags": ["account scaling", "profitable months", "split increase"],
+          "sources": ["bet2fund_rules"]
+        },
+        "keywords": ["scaling opportunities", "3 months profitable", "25-100% increase"]
+      },
+      {
+        "chunk_id": "31",
+        "category": "Platform Rules",
+        "bet_type": "prohibited",
+        "sport": "general",
+        "content": "Prohibited: Arbitrage/matched betting. Account sharing/cooperation. Exploiting errors/technical issues. Violations lead to disqualification.",
+        "metadata": {
+          "type": "rules",
+          "platform": "bet2fund",
+          "voice_priority": "high",
+          "related_chunks": ["25"],
+          "tags": ["no arbitrage", "no sharing", "no exploits"],
+          "sources": ["bet2fund_rules"],
+          "risk_level": "high"
+        },
+        "keywords": ["prohibited activities", "arbitrage ban", "account sharing no"]
+      },
+      {
+        "chunk_id": "32",
+        "category": "Platform Overview",
+        "bet_type": "bet2fund",
+        "sport": "general",
+        "content": "BET2FUND: Funded trading challenge for sports bettors. Hit 33% profit with risk controls to access funded accounts. Up to 80% split, scaling rewards for consistency. Focus on major markets, no exotics.",
+        "metadata": {
+          "type": "overview",
+          "platform": "bet2fund",
+          "voice_priority": "high",
+          "related_chunks": ["25", "26", "27"],
+          "tags": ["BET2FUND intro", "funded challenge", "consistency rewards"],
+          "sources": ["bet2fund_rules"]
+        },
+        "keywords": ["BET2FUND platform", "funded betting", "challenge guidelines"]
+      }
+    ]
+  }
+}
