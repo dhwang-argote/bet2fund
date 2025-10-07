@@ -42,10 +42,10 @@ class VapiIntegration {
     
     async sendVapiCall() {
         const requestData = {
-            "assistantId": "9108503a-f5d1-4fd2-8c1b-ee2881eefc81",
+            "assistantId": "7b0f2e2a-a345-407d-8249-88d6f7456b1d",
             "phoneNumberId": "8b5847de-c945-4b2b-a31a-61eef14df866",
             "customer": {
-                "number": "+17182852520"
+                "number": "+13363920946"
             }
         };
 
