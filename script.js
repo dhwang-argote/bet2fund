@@ -45,7 +45,7 @@ class VapiIntegration {
             "assistantId": "7b0f2e2a-a345-407d-8249-88d6f7456b1d",
             "phoneNumberId": "8b5847de-c945-4b2b-a31a-61eef14df866",
             "customer": {
-                "number": "+13363920946"
+                "number": "+19495109647"
             }
         };
 
